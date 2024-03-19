@@ -1,0 +1,264 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 1rem 2rem;
+  background-color: #000;
+  color: white;
+  text-align: center;
+}
+
+.logo {
+  margin-right: auto;
+  font-size: 2rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;  margin: 0;
+}
+
+nav ul li a {
+  padding: 8px;
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.main {
+  padding: 2rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.welcome-message {
+  text-align: center;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.welcome-message h1 {
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+}
+
+.welcome-message h2 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+p {
+  width: 80%;
+  margin: 16px auto;
+}
+
+.files {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+.audio {
+  margin-top: 20px;
+  padding-right:700px;
+  float: left;
+}
+
+.video{
+  float:left;
+  padding-left: 450px;
+
+}
+.contact-form {
+  margin: 2rem 0;
+  text-align: left;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.contact-form h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+  grid-gap: 1rem;
+  text-align: center;
+  padding-left: 300px;
+
+}
+.contact-form label{
+  text_align: left;
+  padding-right:820px;
+
+}
+.contact-form form input,
+.contact-form form textarea {
+  width: 90%;
+  padding: 0.5rem;
+  padding-right: 0px;
+  float: left;
+  border: 1px solid #ddd;
+  text-align: center;
+  padding-left: 0px;
+  max-width:600px;
+
+}
+
+.contact-form form button {
+  padding: 1rem;
+  border: none;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  width:66%;
+}
+
+.images {
+  display: block;
+  width: 94%;
+  margin: 0 auto;
+}
+
+.goto-footer {
+  padding: 0.5rem 1rem;
+  background-color: white;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.home {
+  padding: 0.6rem 1rem;
+  background-color: white;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.Login {
+  padding: 0.5rem 1rem;
+  background-color: white;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.goto-footer:hover {
+  color: #fff;
+}
+
+.login-container {
+  width: 300px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.login-container h1 {
+  margin-bottom: 2em;
+}
+
+.form-field {
+  margin-bottom: 1em;
+}
+
+.form-field label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+.form-field input {
+  width: 100%;
+  padding: 0.5em;
+  margin-bottom: 0.5em;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 1em;
+  border: none;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+}
+
+video {
+  margin: 2rem;
+}
+
+table {
+  margin: 24px auto;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+table th {
+  background-color: #f2f2f2;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  position: absolute;
+  width: 100%;
+}
