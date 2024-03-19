@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <header>
+      <h1>Login to explore Maori Cultural Practices</h1>
+      <nav>
+        <div class="logo">NZTEI</div>
+        <ul>
+          <li><a href="./index.html"><button class="home">Home</button></a></li>
+        </ul>
+        <button
+          class="goto-footer"
+          onclick="document.getElementById('footer').scrollIntoView({ behavior: 'smooth' });"
+        >
+          Footer
+        </button>
+      </nav>
+      <br><br><br>
+    </header>
+     <section class="Login">
+        <h2>Login here</h2>
+        <form id="Login here">
+
+    <main>
+      <section class="login-container">
+        <form id="login-form" action="./culture.html">
+          <div class="form-field">
+            <label for="username">Username</label>
+            <input
+              type="text"
+              id="username"
+              placeholder="Your Username"
+              required
+            />
+          </div>
+         
+          
+          <div class="form-field">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              placeholder="Enter your password."
+              required
+            />
+          </div>
+          <button type="submit">Login</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        © 2024 New Zealand Tertiary Education Institute. All rights reserved to
+        Sushil Surkheti.
+      </p>
+    </footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
